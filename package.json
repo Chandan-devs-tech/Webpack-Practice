@@ -6,13 +6,16 @@
   "scripts": {
     "start": "webpack serve --open",
     "watch": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy":"gh-pages -d dist"
   },
+  "homepage": "https://Chandan-devs-tech.github.io/Webpack-Practice",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.8.1",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.1",
     "style-loader": "^3.3.3",
     "webpack": "^5.85.0",
